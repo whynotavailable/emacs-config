@@ -12,9 +12,6 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(require 'spaceline-config)
-(spaceline-emacs-theme)
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -44,3 +41,7 @@
 	  (lambda ()
 	    (load-theme 'one-dark)
 	    ))
+
+
+(require 'spaceline-config)
+(spaceline-emacs-theme)
