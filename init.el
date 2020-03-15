@@ -45,3 +45,12 @@
 
 (require 'spaceline-config)
 (spaceline-emacs-theme)
+
+(setq note-format "~/notes/%F.org")
+
+(defun make-note()
+  "Create a new page for today"
+  (interactive)
+  (find-file (format-time-string note-format)))
+
+(global-set-key (kbd "M-n") 'make-note)
