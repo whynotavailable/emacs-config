@@ -27,7 +27,7 @@
     ("59e82a683db7129c0142b4b5a35dbbeaf8e01a4b81588f8c163bd255b76f4d21" "b73a23e836b3122637563ad37ae8c7533121c2ac2c8f7c87b381dd7322714cd0" default)))
  '(fci-rule-color "#383838")
  '(fountain-pages-show-in-mode-line (quote force))
- '(org-agenda-files (quote ("~/dev/ark/docs/notes.org")))
+ '(org-agenda-files (quote ("~/notes/")))
  '(org-export-backends (quote (ascii html icalendar latex md)))
  '(org-support-shift-select t)
  '(package-selected-packages (quote (spaceline neotree fountain-mode one-themes))))
